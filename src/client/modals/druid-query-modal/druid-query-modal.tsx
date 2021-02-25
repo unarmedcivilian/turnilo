@@ -19,7 +19,7 @@ import * as React from "react";
 import { Essence } from "../../../common/models/essence/essence";
 import { Timekeeper } from "../../../common/models/timekeeper/timekeeper";
 import { Fn } from "../../../common/utils/general/general";
-import makeQuery from "../../../common/utils/query/visualization-query";
+import makeQuery from "../../visualizations/grid/make-query";
 import { SourceModal } from "../source-modal/source-modal";
 
 interface DruidQueryModalProps {

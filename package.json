@@ -54,6 +54,7 @@
     "build": "npm-run-all -s clean build:server build:client",
     "clean": "rimraf build/*",
     "tsc": "tsc",
+    "tsc:watch": "tsc -p tsconfig.json -w --pretty",
     "lint": "npm-run-all -p lint:*",
     "lint:ts": "tslint -p . --format verbose",
     "lint:sass": "sass-lint -v",
